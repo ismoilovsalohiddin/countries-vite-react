@@ -1,0 +1,29 @@
+.header{
+   background-color: #fff;
+}
+.header__content{
+   margin: 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header__text{
+   color: #111517;
+   font-family: Nunito Sans;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;   
+}
+
+.header__btn{
+   border: 0;
+   color: #111517;
+   font-family: Nunito Sans;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal; 
+   background-color: #fff;  
+}

@@ -1,0 +1,14 @@
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.countriesList{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -75px;
+    margin-bottom: -75px;
+}
