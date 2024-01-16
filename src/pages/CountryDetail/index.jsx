@@ -1,6 +1,13 @@
-// import cls from "./styles.module.css"
-// import { useLocation} from "react-router-dom"
+import cls from "./styles.module.css"
+import { useLocation, useParams} from "react-router-dom"
 const CountryDetail =()=>{
-    return(<p>Hello</p>)
+    const name = useParams()
+    console.log({name})
+    return(
+        <div className="container">
+            <p>Hello</p>
+            <p>{name}</p>
+        </div>
+    )
 }
 export default CountryDetail

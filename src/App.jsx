@@ -10,7 +10,7 @@ function App() {
     <Header/>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/detail:name" element={<CountryDetail/>}/>
+        <Route path="/detail/:name" element={<CountryDetail/>}/>
       </Routes>
     </BrowserRouter>
   );

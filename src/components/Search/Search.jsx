@@ -1,6 +1,4 @@
 import cls from "./styles.module.css"
-// import { useState } from "react"
-console.log(cls)
 function Search({onChange, type, placeholder, name, className=cls.input__search}){
     return(
         <input
